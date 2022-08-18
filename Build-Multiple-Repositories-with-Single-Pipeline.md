@@ -46,7 +46,8 @@ The `checkout` key takes one value which is the alias name that we gave to the r
 
 - you have to define and check even the repository that contains the pipeline.
 - First time you run the pipeline after adding the repository and checkout, it will ask for give permition to access the banch.
-  ![image](./../.attachments/pipeline-need-permission-first-checkout-branch.png)
+  <img width="872" alt="pipeline-need-permission-first-checkout-branch" src="https://user-images.githubusercontent.com/11056447/185391346-aaddcf5a-0efc-4d48-9895-3a82d5d6233e.png">
+
   just click **View** and then **Permit**
   for more information about pipeline limit job Autherization check the following [link](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/access-tokens?view=azure-devops&tabs=yaml).
 
